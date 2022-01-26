@@ -1,0 +1,1 @@
+nasm  -f elf helloWorld.asm; ld -m elf_i386 -s -o helloWorld helloWorld.o ; ./helloWorld
